@@ -1,0 +1,85 @@
+body{
+    background-color: gray;
+    /* overflow-x:hidden; */
+    /* overflow-y:hidden; */
+}
+header, footer{
+    background-color: rgb(209, 180, 18);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem,1rem;
+   
+}
+nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    width: 19vw;
+    color: goldenrod;
+    font-size: xx-large;
+    
+}
+
+#main_container{
+    /* border: 5px solid #333; */
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.first{
+    /* border: 2px solid black; */
+  width: 28%;
+  
+}
+.img1{
+    width: 95%;
+    padding: 15px;
+    
+}
+
+.second{
+    /* border: 2px solid black; */
+    width: 28%;
+    /* gap: 2rem; */
+    
+}
+.img2{
+    width: 95%;
+    padding: 15px;
+}
+#last{
+    /* border: 2px solid black; */
+    width: 40%;
+}
+.img3{
+    width: 95%;
+    padding: 15px;
+   
+}
+p{
+    text-align: center;
+}
+.sub{
+    background-color: blanchedalmond;
+    font-size: medium;
+    height: 30px;
+    width: 90%;
+    color: black;
+    margin: 1rem;
+}
+span{
+    display: inline-block;
+    width: 100%;
+    height: 1rem;
+    background-color: black;
+}
